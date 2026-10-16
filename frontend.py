@@ -657,9 +657,7 @@ def main() -> None:
         st.title("📦 SmartStock AI")
         st.radio("Go to", PAGES, key="nav", label_visibility="collapsed")
         st.caption("Data lives in this browser session only. Download a backup before you leave.")
-    st.warning("**In-memory storage:** your data is lost when this session ends, the page is "
-               "refreshed for a long time, or the app restarts. Use Reports & Backup to download "
-               "a backup regularly.", icon="⚠️")
+    st.warning("**Smart Thinking Leads to a Brighter Future**")
     pages = {
         "Dashboard": page_dashboard, "Products": page_products, "Add Product": page_add_product,
         "Stock IN": page_stock_in, "Sales / Stock OUT": page_sales, "Camera Scanner": page_scanner,
